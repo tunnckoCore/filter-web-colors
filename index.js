@@ -9,7 +9,7 @@
 
 var mm = require('micromatch');
 var typeOf = require('kind-of');
-var isHex = require('is-hex-color');
+var isHex = require('hex-color-regex');
 var isGlob = require('is-glob');
 var filterObject = require('filter-object');
 var filterValues = require('filter-values');
@@ -56,7 +56,7 @@ module.exports = function filterWebColors(colors, patterns, options) {
       return colors[patterns];
     }
 
-    if (isHex(patterns) || patterns.charAt(0) === '#' && isGlob(patterns)) {
+    if (isHex().test(patterns) || patterns.charAt(0) === '#' && isGlob(patterns)) {
       return filterValues(colors, patterns);
     }
 
