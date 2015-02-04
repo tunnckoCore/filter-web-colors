@@ -17,7 +17,32 @@
     "type": "git",
     "url": "git://github.com/tunnckoCore/filter-web-colors.git"
   },
-  "keywords": [],
+  "keywords": [
+    "callbacks",
+    "cb",
+    "color",
+    "colors",
+    "css",
+    "filter",
+    "glob",
+    "globby",
+    "hex",
+    "hsl",
+    "hsla",
+    "match",
+    "name",
+    "names",
+    "pattern",
+    "possible",
+    "regex",
+    "rgb",
+    "rgba",
+    "true",
+    "util",
+    "utility",
+    "value",
+    "web"
+  ],
   "license": {
     "type": "MIT",
     "url": "https://github.com/tunnckoCore/filter-web-colors/blob/master/license.md"
