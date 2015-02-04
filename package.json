@@ -1,0 +1,40 @@
+{
+  "name": "filter-web-colors",
+  "version": "0.0.0",
+  "description": "(wip) Filter possible web colors (by name or hex value) with glob patterns or callback which returns true",
+  "scripts": {
+    "lint": "jshint index.js && jscs index.js --reporter inline",
+    "test": "mocha",
+    "test-cov": "istanbul cover _mocha",
+    "test-travis": "istanbul cover _mocha --report lcovonly"
+  },
+  "author": {
+    "name": "Charlike Make Reagent",
+    "email": "mameto_100@mail.bg",
+    "url": "https://github.com/tunnckoCore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tunnckoCore/filter-web-colors.git"
+  },
+  "keywords": [],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/tunnckoCore/filter-web-colors/blob/master/license.md"
+  },
+  "dependencies": {
+    "css-color-names": "0.0.1",
+    "filter-keys": "^1.0.1",
+    "filter-object": "^1.1.0",
+    "filter-values": "^0.1.0",
+    "is-glob": "^1.1.0",
+    "is-hex-color": "0.0.1",
+    "kind-of": "^1.0.0",
+    "micromatch": "^1.0.1"
+  },
+  "devDependencies": {
+    "istanbul-harmony": "^0.3.1",
+    "mocha": "*",
+    "mocha-lcov-reporter": "^0.0.1"
+  }
+}
