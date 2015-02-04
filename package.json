@@ -1,6 +1,6 @@
 {
   "name": "filter-web-colors",
-  "version": "0.0.0",
+  "version": "0.0.0-1",
   "description": "(wip) Filter possible web colors (by name or hex or rgb(a) or hsl(a) value) with glob patterns or callback which returns true",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
