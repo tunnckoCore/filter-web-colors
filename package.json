@@ -23,18 +23,17 @@
     "url": "https://github.com/tunnckoCore/filter-web-colors/blob/master/license.md"
   },
   "dependencies": {
-    "css-color-names": "0.0.1",
+    "css-color-names": "~0.0.0",
     "filter-keys": "^1.0.1",
     "filter-object": "^1.1.0",
     "filter-values": "^0.1.0",
     "is-glob": "^1.1.0",
-    "is-hex-color": "0.0.1",
-    "kind-of": "^1.0.0",
-    "micromatch": "^1.0.1"
+    "hex-color-regex": "~1.0.0",
+    "kind-of": "~1.0.0",
+    "micromatch": "^1.2.2"
   },
   "devDependencies": {
-    "istanbul-harmony": "^0.3.1",
-    "mocha": "*",
-    "mocha-lcov-reporter": "^0.0.1"
+    "istanbul-harmony": "~0.3.1",
+    "mocha": "~2.1.0"
   }
 }
