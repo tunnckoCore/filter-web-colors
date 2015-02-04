@@ -1,10 +1,10 @@
 ## [![npm][npmjs-img]][npmjs-url] [![mit license][license-img]][license-url] [![build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![deps status][daviddm-img]][daviddm-url]
 
-> Filter possible web colors (by name or hex value) with glob patterns or callback which returns true
+> Filter possible web colors (by name or hex or rgb(a) or hsl(a) value) with glob patterns or callback which returns true
 
 ## Install
-```bash
-npm install filter-web-colors
+```
+npm i --save filter-web-colors
 npm test
 ```
 
@@ -15,9 +15,6 @@ npm test
 ```js
 var filterWebColors = require('filter-web-colors');
 ```
-
-
-## API / CLI
 
 
 ## Author
@@ -59,4 +56,4 @@ Released under the [`MIT`][license-url] license.
 
 ***
 
-_Powered and automated by [kdf](https://github.com/tunnckoCore), January 20, 2015_
+_Powered and automated by [kdf](https://github.com/tunnckoCore), February 4, 2015_
